@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.html5-qrcode-element{
+    color:white;
+    background-color: #eeac00 !important;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin:5px;
+    margin-bottom:20px;
+}
+
+#reader{
+    border: none !important;
+}
+#reader__scan_region{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30vw;
+}
